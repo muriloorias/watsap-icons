@@ -14,6 +14,12 @@ function showPassword() {
   }
 }
 
+
+
+function goToCreateAccount(){
+  window.location.href = "/createAccount"
+}
+
 function loginWithEmailAndPassword(email, password){
 
 }

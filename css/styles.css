@@ -39,7 +39,11 @@ input[type="password"] {
 }
 
 button{
-      
+    border-radius: 15px;
+    width: 50%;
+    background-color: blue;
+    color: white;
+
 }
 
 .clicable{
@@ -56,4 +60,8 @@ button{
     margin: 0 6px;
     vertical-align: middle;
     width: 50px;
+}
+
+.center{
+    align-items: center;
 }

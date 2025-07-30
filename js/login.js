@@ -1,3 +1,6 @@
+import app from './firebase/firebase-config.js'
+import auth from './firebase/firebase-config.js'
+
 function showPassword() {
   const button = document.getElementById("showPassword")
   const passwordInput = document.getElementById("passwordInput")
@@ -9,4 +12,8 @@ function showPassword() {
     passwordInput.type = "password"
     button.src = "../imgs/hidden.png"
   }
+}
+
+function loginWithEmailAndPassword(email, password){
+
 }

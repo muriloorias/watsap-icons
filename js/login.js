@@ -10,3 +10,7 @@ function showPassword() {
     button.src = "../imgs/hidden.png"
   }
 }
+
+function goToCreateAccount(){
+  window.location.href = "/createAccount"
+}

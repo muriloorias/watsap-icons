@@ -40,10 +40,9 @@ input[type="password"] {
 
 button{
     border-radius: 15px;
-    width: 50%;
-    background-color: blue;
+    background-color: rgb(50, 90, 255);
     color: white;
-
+    
 }
 
 .clicable{
